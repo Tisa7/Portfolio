@@ -145,19 +145,7 @@ html {
   flex-direction: column;
 }
 
-/* extra{
-    font-family: "Saira Extra Condensed", -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-style: ;
-    font-weight: ;
-    font-size: ;
-    line-height: ;
-    color: ;
-} */
 
-.reverse {
-  background-color: lightcoral;
-  width: 100%;
-}
 
 /* display: flex;
   justify-content: start;
