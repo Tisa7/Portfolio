@@ -43,7 +43,10 @@ a {
   text-decoration: none;
 }
 .topics li a {
-  color: #efd7cd;
+  color: #f7f0f6;
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 .topics li a:hover {
   color: white;
@@ -54,7 +57,7 @@ a {
   align-items: center;
   justify-content: center;
   width: 300px;
-  background-color: #bd5d38;
+  background-color: #925c92;
   height: 100vh;
 }
 .social ul {
@@ -66,7 +69,7 @@ a {
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
-  background-color: white;
+  background-color: rgb(235, 221, 236);
   width: 100%;
   height: 100%; /* Ensure it takes full height */
 }
@@ -94,7 +97,7 @@ html {
   font-weight: 700;
   font-size: 56px;
   line-height: 67px;
-  color: rgb(52, 58, 64);
+  color: rgb(115, 67, 127);
 }
 
 .h2c {
@@ -102,7 +105,7 @@ html {
   font-weight: 700;
   font-size: 32px;
   line-height: 38px;
-  color: rgb(52, 58, 64);
+  color: rgb(0, 31, 63);
 }
 .subhead {
   padding-bottom: 20px;
@@ -110,14 +113,14 @@ html {
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
-  color: rgb(134, 142, 150);
+  color: rgb(70, 97, 124);
 }
 .para {
   font-family: "Mulish", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  color: rgb(134, 142, 150);
+  color: rgb(11, 17, 23);
 }
 .intro {
   font-family: "Mulish", sans-serif;
@@ -125,7 +128,7 @@ html {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  color: rgb(134, 142, 150);
+  color: rgb(1, 6, 11);
 }
 
 .lastp {
@@ -135,7 +138,7 @@ html {
 }
 .workflow ul li::before {
   content: "✔";
-  color: green;
+  color: rgb(63, 184, 63);
 }
 .maintopicslast {
   display: flex;
@@ -179,9 +182,12 @@ html {
   align-items: center;
 }
 #about {
-  background-color: lightblue;
+  background-color:  rgb(235, 221, 236);
   height: 100vh; /* This should now work */
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+img{
+  margin-bottom: 30px;
 }
